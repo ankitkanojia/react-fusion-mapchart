@@ -22,7 +22,6 @@ const chartConfigs_map = {
     "chart": {
       "theme": "fusion",
       "caption": "Increased Population History by country Last Year",
-      "subcaption": '2018',
       "xAxisName": "Population",
       "yAxisName": "Growth",
       "entityFillHoverColor": "#FFF9C4",
@@ -87,7 +86,7 @@ class App extends Component {
   render() {
     return (
         <div className="container">
-          <div className="row">
+          <div className="row" style={{marginTop:50}}>
 
             {/*Map section*/}
             <div className="col-sm-12">
