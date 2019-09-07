@@ -94,8 +94,8 @@ const chartConfigs_withMarkerMap = {
       "subcaption": "Based on Passenger Traffic",
       "theme": "fusion",
       "showMarkerLabels": "1",
-      "entityFillColor": "#A8A8A8",
-      "entityFillHoverColor": "#E5E5E9"
+      "entityFillColor": "#ffca3a",
+      "entityFillHoverColor": "#FFF9C4"
     },
     "markers": {
       "shapes": [{
@@ -161,13 +161,13 @@ class App extends Component {
           <div className="row" style={{marginTop:50}}>
 
             {/*Map section*/}
-            <div className="col-sm-12">
+            <div className="col-sm-12 border">
               <h3 className="text-center">Map Chart</h3>
               <ReactFC {...chartConfigs_map} />
             </div>
 
             {/*Map with marker section*/}
-            <div className="col-sm-12" style={{marginTop:50}}>
+            <div  className="col-sm-12 border" style={{marginTop:50}}>
               <h3 className="text-center">Map With Marker Chart</h3>
               <ReactFC {...chartConfigs_withMarkerMap} />
             </div>
