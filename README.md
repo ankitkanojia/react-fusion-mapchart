@@ -321,6 +321,12 @@ Fusion chart library initially not provided any collection of maps. Whenever you
 
 To render these maps, you need to download the map definition files from here and copy-paste the maps folder within your fusion charts directory.
 
+###### Please follow the steps
+
+1) open link https://www.fusioncharts.com/download/map-definition-files
+2) click on Download Map Definition Files(https://cdn.fusioncharts.com/downloads/addons/fusionmaps-xt-definition.zip) which contains collection of all the maps available in Fusion Maps XTall the maps available in Fusion Maps XT
+3) after download copy the /maps folder from this download package and paste it in your fusion charts folder.
+4) now run you're existing application the file will be found and your react application will work as expected.
 
 ## Licensing
 
