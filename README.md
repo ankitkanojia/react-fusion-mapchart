@@ -313,6 +313,15 @@ class App extends Component {
 export default App;
 ```
 
+#### Error in displaying map
+
+Fusion Maps XT offers interactive maps to plot geographical data like revenue by regions, population by state, survey and election results effectively. You can also drop markers on the map to pinpoint places like office locations and flight routes. It has over 1000 maps including all continents, major countries and all the US states.
+
+Fusion chart library initially not provided any collection of maps. Whenever you install fusion chart library on initial base it has only few maps file in map folder of package. Due to that reason you're file is not available in the whole package. They provided the link on their official page for download all the map related to fusion map chart.
+
+To render these maps, you need to download the map definition files from here and copy-paste the maps folder within your fusion charts directory.
+
+
 ## Licensing
 
 The FusionCharts React component is open-source and distributed under the terms of the MIT/X11 License. However, you will need to download and include FusionCharts library in your page separately, which has a [separate license](https://www.fusioncharts.com/buy).
