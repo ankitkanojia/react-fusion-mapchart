@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import FusionCharts from 'fusioncharts';
 import Maps from 'fusioncharts/fusioncharts.maps';
-
-//download all map from https://cdn.fusioncharts.com/downloads/addons/fusionmaps-xt-definition.zip
 import World from 'fusioncharts/maps/fusioncharts.worldwithcountries';
 import ReactFC from 'react-fusioncharts';
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion';
