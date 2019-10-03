@@ -1,0 +1,1 @@
+var isNumber=function isNumber(x){return typeof x==="number"&&!isNaN(x-x)};export{isNumber};

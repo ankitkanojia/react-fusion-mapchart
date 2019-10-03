@@ -1,0 +1,1 @@
+import RaphaelVml from"../vendors/redraphael/source/raphael.vml";import RaphaelExport from"./redraphael.export.vml";export default{extension:function extension(FusionCharts){var R=FusionCharts.getDep("redraphael","plugin");RaphaelVml(R);RaphaelExport(R)},name:"redraphaelVml",type:"plugin",requiresFusionCharts:true};

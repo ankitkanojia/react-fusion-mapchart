@@ -1,0 +1,1 @@
+import{datasetFactory}from"@fusioncharts/core/src/lib";export default function(chart){var dataObj=chart.getFromEnv("dataSource"),value=dataObj.value,target=dataObj.target,DSClass,dataOnlyArr=[],datasetJSON={};dataOnlyArr.push({value:value,target:target});datasetJSON.data=dataOnlyArr;DSClass=chart.getDSdef();datasetFactory(chart,DSClass,"dataset",1,[datasetJSON])}

@@ -1,0 +1,1 @@
+export default{"initial.caption.caption":function initialCaptionCaption(){return{"text.appearing":function textAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"initial"}]}}}};

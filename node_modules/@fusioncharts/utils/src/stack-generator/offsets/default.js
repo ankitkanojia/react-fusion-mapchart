@@ -1,0 +1,1 @@
+export default function(series,order){var ii=series.length;if(ii>1){var s1=series[order[0]],jj=s1.length,s0,i,j;for(i=1;i<ii;++i){s0=s1;s1=series[order[i]];for(j=0;j<jj;++j){s1[j][0]=isNaN(s0[j][1])?s0[j][0]:s0[j][1];s1[j][1]+=s1[j][0]}}}}

@@ -1,0 +1,1 @@
+import Maps from"./chart/maps";export{Maps};export default{name:"maps",type:"package",requiresFusionCharts:true,extension:function extension(FusionCharts){return FusionCharts.addDep(Maps)}};

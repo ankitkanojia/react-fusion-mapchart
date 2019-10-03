@@ -1,0 +1,1 @@
+import exponent from"./exponent";var precisionFixed=function precisionFixed(step){return Math.max(0,-exponent(Math.abs(step)))};export default precisionFixed;

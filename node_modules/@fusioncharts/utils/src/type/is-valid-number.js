@@ -1,0 +1,1 @@
+export default function(x){return x!==""&&typeof+x==="number"&&!isNaN(+x)&&x!==Infinity&&x!==-Infinity}

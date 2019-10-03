@@ -1,0 +1,1 @@
+import Background from"../../../_internal/components/background";import{componentFactory}from"@fusioncharts/core/src/lib";export default function(chart){componentFactory(chart,Background,"background",1,[{}])}

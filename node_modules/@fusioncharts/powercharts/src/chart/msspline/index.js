@@ -1,0 +1,1 @@
+import MSSpline from"@fusioncharts/charts/src/chart/msspline";export default MSSpline;

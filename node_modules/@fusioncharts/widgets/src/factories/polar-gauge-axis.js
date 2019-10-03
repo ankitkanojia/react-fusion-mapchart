@@ -1,0 +1,1 @@
+import PolarGaugeAxis from"@fusioncharts/core/src/axis/polar-numeric";import{componentFactory}from"@fusioncharts/core/src/lib";export default function(chart){componentFactory(chart,PolarGaugeAxis,"scale",1,chart._feedAxesRawData());chart.addToEnv("scale",chart.getChildren("scale")[0])}

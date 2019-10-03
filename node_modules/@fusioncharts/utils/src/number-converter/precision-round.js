@@ -1,0 +1,1 @@
+import exponent from"./exponent";var precisionRound=function precisionRound(_step,_max){var step=Math.abs(_step),max=Math.abs(_max)-step;return Math.max(0,exponent(max)-exponent(step))+1};export default precisionRound;

@@ -1,0 +1,1 @@
+export default function(acc,ob){return[Math.min(acc[0],ob[0]),Math.max(acc[1],ob[1])]}

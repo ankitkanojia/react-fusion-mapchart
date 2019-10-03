@@ -1,0 +1,1 @@
+import{componentFactory}from"@fusioncharts/core/src/lib";import LegendClass from"../_internal/components/legend/discrete";export default function(chart){var legend;componentFactory(chart,LegendClass,"legend");legend=chart.getChildren("legend")[0];legend.configure();chart.addToEnv("legend",legend);if(!chart.config.showLegend){legend.remove()}}

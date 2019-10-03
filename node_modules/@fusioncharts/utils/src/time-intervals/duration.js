@@ -1,0 +1,1 @@
+import{DatetimeUnits}from"../datetime-enums";function duration(Unit,_number){var number=_number;if(!Unit||!DatetimeUnits[Unit.name])throw new Error("Invalid Unit provided: "+Unit);number=Math.abs(number)||1;return{Unit:Unit.name,number:number,ms:Unit.ms*number}}export{duration};

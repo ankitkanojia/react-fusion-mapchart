@@ -1,0 +1,1 @@
+export default{"initial.background.background":function initialBackgroundBackground(){return{"rect.appearing":function rectAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"initial"}]}}}};

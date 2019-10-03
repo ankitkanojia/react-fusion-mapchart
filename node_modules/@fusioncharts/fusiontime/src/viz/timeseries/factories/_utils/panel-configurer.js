@@ -1,0 +1,1 @@
+export default function(axesConfig,index){var config=axesConfig[index];return Object.assign({},config,{columnname:config.columnname})}

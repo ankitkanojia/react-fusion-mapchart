@@ -1,0 +1,1 @@
+import isObject from"@fusioncharts/utils/src/type/is-object";export default function(x){return isObject(x)&&!!x.columnname}

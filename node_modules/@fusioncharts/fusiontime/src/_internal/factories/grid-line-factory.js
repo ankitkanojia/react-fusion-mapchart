@@ -1,0 +1,1 @@
+import GridLine from"../components/grid-lines";export default function(canvas){if(canvas.config.enableGridLines){var gridLine=canvas.attachChild(GridLine,"gridLine");gridLine.configure({direction:canvas.config.gridLineDirection,styleGridLines:canvas.config.styleGridLines,defaultStyle:canvas.config.gridLineStyle})}}

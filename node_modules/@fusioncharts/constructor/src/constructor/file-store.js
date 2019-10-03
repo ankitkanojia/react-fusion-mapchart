@@ -1,0 +1,1 @@
+var fileStore={},addFile=function addFile(name){fileStore[name]=true},getFile=function getFile(name){return fileStore[name]};export{addFile,getFile};export default{extension:function extension(FUSIONCHARTS){FUSIONCHARTS.addFile=addFile;FUSIONCHARTS.getFile=getFile},name:"fileStore",type:"plugin",requiresFusionCharts:true};

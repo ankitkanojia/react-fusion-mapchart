@@ -1,0 +1,1 @@
+export default{"initial.dataset.connector":function initialDatasetConnector(){return{"path.appearing":function pathAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"final"}]}}}};

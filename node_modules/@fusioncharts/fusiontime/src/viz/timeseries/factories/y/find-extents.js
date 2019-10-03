@@ -1,0 +1,1 @@
+export default function(table,header){return[table.min(header),table.max(header)]}

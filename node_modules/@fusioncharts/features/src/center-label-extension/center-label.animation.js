@@ -1,0 +1,1 @@
+export default{"initial.centerLabel.centerLabel.text.appearing":function initialCenterLabelCenterLabelTextAppearing(json){if(json.attr){return[{initialAttr:{x:json.attr.x,y:json.attr.y}}]}}};

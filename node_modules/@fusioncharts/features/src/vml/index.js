@@ -1,0 +1,1 @@
+import RedraphaelVml from"@fusioncharts/core/src/_internal/redraphael/redraphael.vml";export default RedraphaelVml;

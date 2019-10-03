@@ -1,0 +1,1 @@
+import Brush from"../components/brush";export default function(timeNav){var brush=timeNav.attachChild(Brush,"brush"),dataSource=timeNav.getFromEnv("dataSource");brush.configure({values:timeNav.config.values,style:dataSource.navigator&&dataSource.navigator.window&&dataSource.navigator.window.style||{}})}

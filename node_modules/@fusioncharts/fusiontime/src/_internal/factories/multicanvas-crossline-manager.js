@@ -1,0 +1,1 @@
+import CrosslineManager from"../components/multicanvas-crossline-manager";import{componentFactory}from"@fusioncharts/core/src/lib";export default function(chart){var crosslineManager;componentFactory(chart,CrosslineManager,"multicanvasCrosslineManager",1);crosslineManager=chart.getChildren("multicanvasCrosslineManager")[0];crosslineManager.configure()}

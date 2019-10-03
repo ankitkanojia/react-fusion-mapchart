@@ -1,0 +1,1 @@
+var formatDecimal=function formatDecimal(_num,significantDigits){var i,coefficient,num;num=significantDigits?_num.toExponential(significantDigits-1):_num.toExponential();i=num.indexOf("e");if(i<0)return null;coefficient=num.slice(0,i);return[coefficient.length>1?coefficient[0]+coefficient.slice(2):coefficient,+num.slice(i+1)]};export default formatDecimal;

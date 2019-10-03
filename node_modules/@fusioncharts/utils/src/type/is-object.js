@@ -1,0 +1,1 @@
+export default function(x){return x!==null&&typeof x==="object"&&!Array.isArray(x)}

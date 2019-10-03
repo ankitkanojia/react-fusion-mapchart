@@ -1,0 +1,1 @@
+import Canvas from"../_internal/components/canvases/canvas";import{componentFactory}from"@fusioncharts/core/src//lib";export default function(chart){var canvas;componentFactory(chart,Canvas,"canvas",chart.config.showVolumeChart?2:1);canvas=chart.getChildren("canvas");for(var i=0,len=canvas.length;i<len;i++){canvas[i].configure()}}

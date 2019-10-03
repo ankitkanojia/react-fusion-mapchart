@@ -1,0 +1,1 @@
+export default{"initial.canvas.quadrant":function initialCanvasQuadrant(){return{"path.appearing":function pathAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"axis"}]},"text.appearing":function textAppearing(){return[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"plot"}]}}}};

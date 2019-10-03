@@ -1,0 +1,1 @@
+import isString from"./is-string";export default function(param){return isString(param)&&param.length}

@@ -1,0 +1,1 @@
+import formatDecimal from"./format-decimal";var exponent=function exponent(_x){var x=formatDecimal(Math.abs(_x));return x?x[1]:NaN};export default exponent;

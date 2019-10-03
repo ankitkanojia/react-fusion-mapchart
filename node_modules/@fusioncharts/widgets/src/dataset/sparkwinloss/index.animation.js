@@ -1,0 +1,1 @@
+import columnAnimation from"@fusioncharts/charts/src/dataset/column/index.animation";export default{"initial.dataset.sparkWinLoss":columnAnimation["initial.dataset.column"]};

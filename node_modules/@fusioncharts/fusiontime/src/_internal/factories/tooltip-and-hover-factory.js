@@ -1,0 +1,1 @@
+import MouseAction from"../components/tooltip-and-hover";export default function(canvas){if(canvas.config.enableMouseTracking){canvas.attachChild(MouseAction,"tooltipHover").configure()}}

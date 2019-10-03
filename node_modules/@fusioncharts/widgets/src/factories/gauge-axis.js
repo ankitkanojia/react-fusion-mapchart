@@ -1,0 +1,1 @@
+import GaugeAxis from"@fusioncharts/core/src/axis/gauge";import{componentFactory}from"@fusioncharts/core/src/lib";export default function(chart){var canvas=chart.getChildren("canvas")[0];componentFactory(chart,GaugeAxis,"scale",1,chart._feedAxesRawData());chart.getChildren("scale")[0].setLinkedItem("canvas",canvas);chart.addToEnv("scale",chart.getChildren("scale")[0])}

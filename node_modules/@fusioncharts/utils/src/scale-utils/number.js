@@ -1,0 +1,1 @@
+var number=function number(x){return+x};export default number;

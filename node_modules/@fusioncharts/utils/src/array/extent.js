@@ -1,0 +1,1 @@
+import safeMin from"./safe-min";import safeMax from"./safe-max";var extent=function extent(arr,fn){if(arr===void 0){arr=[]}return[safeMin(arr,fn),safeMax(arr,fn)]};export default extent;

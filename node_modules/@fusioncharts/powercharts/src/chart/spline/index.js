@@ -1,0 +1,1 @@
+import Spline from"@fusioncharts/charts/src/chart/spline";export default Spline;

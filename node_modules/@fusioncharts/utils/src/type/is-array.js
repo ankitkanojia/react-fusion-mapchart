@@ -1,0 +1,1 @@
+export default function(x){return Array.isArray(x)}

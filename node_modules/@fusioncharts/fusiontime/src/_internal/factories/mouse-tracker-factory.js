@@ -1,0 +1,1 @@
+import MouseTracker from"./../components/mouse-tracker";export default function(canvas){var mouseTracker;if(canvas.config.enableMouseTracking){mouseTracker=canvas.attachChild(MouseTracker,"mouseTracker");canvas.addToEnv("mouseTracker",mouseTracker);if(!mouseTracker.config.mouseTrackerEventAdded){mouseTracker.addEvents();mouseTracker.config.mouseTrackerEventAdded=true}}}

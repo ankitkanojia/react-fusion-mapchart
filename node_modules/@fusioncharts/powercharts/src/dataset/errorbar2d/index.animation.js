@@ -1,0 +1,1 @@
+import columnAnimation from"@fusioncharts/charts/src/dataset/column/index.animation";export default{column:{"initial.dataset.errorBar2D":columnAnimation["initial.dataset.column"]},error:{"initial.dataset.errorBar2D":function initialDatasetErrorBar2D(){return{"path.appearing":[{initialAttr:{opacity:0},finalAttr:{opacity:1},slot:"final"}]}}}};

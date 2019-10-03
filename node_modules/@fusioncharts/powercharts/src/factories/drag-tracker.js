@@ -1,0 +1,1 @@
+import DragTracker from"../chart/_internal/drag-tracker";import{componentFactory}from"@fusioncharts/core/src/lib";export default function(chart){componentFactory(chart,DragTracker,"dragTracker");chart.getChildren("dragTracker")[0].addEvents()}

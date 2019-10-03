@@ -1,0 +1,1 @@
+import CanvasGantt from"../_internal/canvas-gantt";import{componentFactory}from"@fusioncharts/core/src/lib";export default function(chart){var canvas;componentFactory(chart,CanvasGantt,"canvas",1);canvas=chart.getChildren("canvas");for(var i=0,len=canvas.length;i<len;i++){canvas[i].configure()}}

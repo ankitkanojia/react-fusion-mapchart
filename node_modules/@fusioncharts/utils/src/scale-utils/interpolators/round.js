@@ -1,0 +1,1 @@
+function interpolateRound(_min,_max){var min=Number(_min),max=Number(_max),diff=max-min;return function(ratio){return Math.round(diff*ratio+min)}}export default interpolateRound;

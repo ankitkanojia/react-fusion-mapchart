@@ -1,0 +1,1 @@
+import isArray from"./is-array";export default function(param){return isArray(param)&&param.length}
