@@ -313,7 +313,7 @@ class App extends Component {
 export default App;
 ```
 
-## Error in displaying map
+## ISSUE : With current package fusion chart library not provided all map collection
 
 Fusion Maps XT offers interactive maps to plot geographical data like revenue by regions, population by state, survey and election results effectively. You can also drop markers on the map to pinpoint places like office locations and flight routes. It has over 1000 maps including all continents, major countries and all the US states.
 
